@@ -13,7 +13,8 @@ https://github.com/cullus/gfSpinePiXi
 方法
 Spine 3.7版本unpack .png文件得到各个部件的小图片
 返回2.1.27版本打开 .skel文件，腿部动作有问题，把一条腿的X轴flip即可
-导入unity，目前经测试只适用于5.6以下版本，导入package，放入 .skel .png .atlas 会生成spinepackage 文件，点击 Bake, 会生成对应人物的Object还自带animator！
+导入unity，目前经测试只适用于5.6以下版本，导入package，放入 .skel .png .atlas 会生成spinepackage 文件
+不要用bake，用新建componenet -> spineanimator，然后倒入package到component里头
 
 
 - English -
